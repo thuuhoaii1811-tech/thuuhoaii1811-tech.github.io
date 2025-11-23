@@ -1,0 +1,192 @@
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.banner{
+    padding:20px;
+    text-align:center;
+    border-bottom:3px solid #ddd;
+}
+
+.banner h1{
+    font-size:38px;
+    font-weight:700;
+}
+
+.banner img{
+    width:90px;
+    margin-bottom:10px;
+}
+
+nav{
+    background:white;
+    display:flex;
+    justify-content:center;
+    padding:15px;
+    gap:25px;
+    border-bottom:2px solid #e3e3e3;
+}
+
+nav a{
+    text-decoration:none;
+    font-size:18px;
+    padding:6px 12px;
+    border-radius:8px;
+    font-weight:600;
+    transition:0.25s;
+}
+
+nav a:hover{
+    transform:scale(1.1);
+    opacity:0.8;
+}
+
+.home-theme{
+    background:#ffe8f1;
+}
+
+.home-theme nav a{
+    background:#ffb8d9;
+    color:#7a0051;
+}
+
+.about-theme{
+    background:#f1e9ff;
+}
+
+.about-theme nav a{
+    background:#d1b8ff;
+    color:#4b2c8a;
+}
+
+.product-theme{
+    background:#e4fff7;
+}
+
+.product-theme nav a{
+    background:#b8fff0;
+    color:#0b7a67;
+}
+
+.news-theme{
+    background:#fff7d6;
+}
+
+.news-theme nav a{
+    background:#ffe9a8;
+    color:#8a6a00;
+}
+
+.sale-theme{
+    background:#ffe7d8;
+}
+
+.sale-theme nav a{
+    background:#ffc4a3;
+    color:#8a4b00;
+}
+
+.contact-theme{
+    background:#e6f3ff;
+}
+
+.contact-theme nav a{
+    background:#b8dcff;
+    color:#084c8a;
+}
+
+.login-theme{
+    background:#f7f1f3;
+}
+
+.login-theme nav a{
+    background:#e6cdd5;
+    color:#4a3042;
+}
+
+.signup-theme{
+    background:#ecffe6;
+}
+
+.signup-theme nav a{
+    background:#cbffbb;
+    color:#477a34;
+}
+
+.product-grid{
+    padding:40px;
+    display:flex;
+    gap:25px;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+
+.item{
+    width:230px;
+    background:white;
+    padding:15px;
+    border-radius:14px;
+    box-shadow:0 0 10px #cecece;
+    text-align:center;
+}
+
+.item img{
+    width:100%;
+    border-radius:10px;
+}
+
+.item h3{
+    margin:10px 0;
+}
+
+.item p{
+    font-size:17px;
+    color:#444;
+}
+
+.about-box{
+    padding:40px;
+    width:70%;
+    margin:auto;
+    background:white;
+    border-radius:16px;
+    box-shadow:0 0 10px #ccc;
+    line-height:1.6;
+}
+
+form{
+    width:350px;
+    margin:40px auto;
+    background:white;
+    padding:25px;
+    border-radius:16px;
+    box-shadow:0 0 10px #ccc;
+}
+
+input,textarea{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:8px;
+    border:1px solid #ccc;
+}
+
+button{
+    padding:10px 20px;
+    border:none;
+    background:#ff8abb;
+    border-radius:10px;
+    color:white;
+    cursor:pointer;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
+    background:#fff;
+}
